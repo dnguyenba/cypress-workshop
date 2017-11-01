@@ -13,9 +13,9 @@ For your first test you can use the username "blueberry" and password "password"
 
 ### Writing the test:
 The test file is located in /cypress/integration
-You can grab an element by:
+#### You can grab an element by:
 - element (), id (#), class (.) using: cy.get(selector)
-and interact with it:
+#### and interact with it:
 - .click()
 - .type('to type text')
 - .clear('to clear text')
