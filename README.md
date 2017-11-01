@@ -12,7 +12,7 @@ For your first test you can use the username "blueberry" and password "password"
 (for now don't bother hiding them in .env)
 
 ### Writing the test:
-- The test file is located in /cypress/integration
+The test file is located in /cypress/integration
 You can grab an element by:
 - element (), id (#), class (.) using: cy.get(selector)
 and interact with it:
