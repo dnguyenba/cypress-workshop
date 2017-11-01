@@ -21,4 +21,4 @@ The test file is located in /cypress/integration
 - .clear('to clear text')
 
 These have to be chained off (usually) a cy.get()
-For how to assert with .should() please see the list of possible chainers at: Cypress.io
+For how to assert with .should() please see the list of possible chainers at: [Cypress.io](https://docs.cypress.io/guides/references/assertions.html#BDD-Assertions)
