@@ -23,61 +23,60 @@ The test file is located in /cypress/integration
 These have to be chained off (usually) a cy.get()
 For how to assert with .should() please see the list of possible chainers at: [Cypress.io](https://docs.cypress.io/guides/references/assertions.html#BDD-Assertions)
 
+# Test IDs
 
-+# Test IDs
- +
- +## Containers
- +
- +### Login
- +
- +* ScrollView.__SCENE\_LOGIN__
- +  * [Input](#input).__USERNAME__
- +  * [Input](#input).__PASSWORD__
- +  * [Checkbox](#checkbox).__KEEP\_ME\_SIGNED\_IN__
- +  * [Button](#button).__BUTTON\_SIGN\_IN__
- +  * [Footer](#footer)
- +
- +## Components
- +
- +### Basic
- +
- +#### Button
- +
- +* View.__*testID*__ or __BUTTON__
- +  * TouchableHighlight.__HANDLE__
- +  * [Text](#text).__TEXT__
- +
- +#### ButtonLink
- +
- +* TouchableWithoutFeedback.__*testID*__ or __BUTTON_LINK__
- +  * [Text](#text).__TEXT__
- +
- +#### Checkbox
- +
- +* TouchableOpacity.__*testID*__ or __CHECKBOX__
- +  * [Icon](#icon)
- +  * [Text](#text).__LABEL__
- +
- +#### Icon
- +
- +* Image.__*testID*__ or __ICON__
- +
- +#### Input
- +
- +* View.__*testID*__ or __INPUT__
- +  * [Text](#text).__LABEL__
- +  * TextInput.__INPUT\_FIELD__
- +  * ?TouchableOpacit.__SECURE\_TEXT\_ENTRY__
- +  * ?View.__ERROR__
- +
- +#### Text
- +
- +* Text.__*testID*__ or __TEXT__
- +
- +### Login
- +
- +#### Footer
- +
- +* View.__FOOTER__
- +* [ButtonLink](#buttonlink).__FORGOT\_PASSWORD__
- +* [ButtonLink](#buttonlink).__REGISTER__
+## Containers
+
+### Login
+
+* ScrollView.__SCENE\_LOGIN__
+  * [Input](#input).__USERNAME__
+  * [Input](#input).__PASSWORD__
+  * [Checkbox](#checkbox).__KEEP\_ME\_SIGNED\_IN__
+  * [Button](#button).__BUTTON\_SIGN\_IN__
+  * [Footer](#footer)
+
+## Components
+
+### Basic
+
+#### Button
+
+* View.__*testID*__ or __BUTTON__
+  * TouchableHighlight.__HANDLE__
+  * [Text](#text).__TEXT__
+
+#### ButtonLink
+
+* TouchableWithoutFeedback.__*testID*__ or __BUTTON_LINK__
+  * [Text](#text).__TEXT__
+
+#### Checkbox
+
+* TouchableOpacity.__*testID*__ or __CHECKBOX__
+  * [Icon](#icon)
+  * [Text](#text).__LABEL__
+
+#### Icon
+
+* Image.__*testID*__ or __ICON__
+
+#### Input
+
+* View.__*testID*__ or __INPUT__
+  * [Text](#text).__LABEL__
+  * TextInput.__INPUT\_FIELD__
+  * ?TouchableOpacit.__SECURE\_TEXT\_ENTRY__
+  * ?View.__ERROR__
+
+#### Text
+
+* Text.__*testID*__ or __TEXT__
+
+### Login
+
+#### Footer
+
+* View.__FOOTER__
+* [ButtonLink](#buttonlink).__FORGOT\_PASSWORD__
+* [ButtonLink](#buttonlink).__REGISTER__
